@@ -1,0 +1,29 @@
+<form class="todo-form" [formGroup]="todoForm">
+    <mat-form-field>
+      <mat-label>Title</mat-label>
+      <input matInput formControlName="title">
+    </mat-form-field>
+  
+    <mat-form-field>
+      <mat-label>Description</mat-label>
+      <input matInput formControlName="description">
+    </mat-form-field>
+
+    <mat-form-field>
+        <mat-label>Author</mat-label>
+        <input matInput formControlName="author">
+      </mat-form-field>
+
+      <mat-form-field>
+        <mat-label>Priority</mat-label>
+        <input matInput formControlName="priority">
+      </mat-form-field>
+
+      <mat-form-field>
+        <mat-label>Deadline</mat-label>
+        <input matInput formControlName="deadline">
+      </mat-form-field>
+
+      <button mat-raised-button color="primary">Create</button>
+  </form>
+  
